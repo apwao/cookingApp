@@ -19,3 +19,10 @@ return kilo/0.453592;
 let kilo = prompt("Enter amount in kilograms:");
 let resultPound = kiloToPound(kilo);
 alert(resultPound);
+//Convert pounds to kilograms
+let poundToKilo = function (pound) {
+return pound * 0.453592;
+}
+let pound = prompt("Enter amount in pounds:");
+let resultKilo = poundToKilo (pound);
+alert(resultKilo);
