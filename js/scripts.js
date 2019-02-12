@@ -26,3 +26,10 @@ return pound * 0.453592;
 let pound = prompt("Enter amount in pounds:");
 let resultKilo = poundToKilo (pound);
 alert(resultKilo);
+//Convert Ounces to Quarts
+let ounceToQuart = function (ounce) {
+return ounce * 0.3125;
+}
+let ounce = prompt("Enter amount in ounces:");
+let resultQuart = ounceToQuart (ounce);
+alert(resultQuart);
