@@ -40,3 +40,10 @@ return quart / 0.3125;
 let quart = prompt("Enter amount in quarts:");
 let resultOunce = quartToOunce (quart);
 alert(resultOunce);
+//Convert Litres to Pints
+let litresToPint = function (litres) {
+return litres * 2.11338;
+}
+let litres = prompt("Enter amount in litres:");
+let resultPint = litresToPint (litres);
+alert(resultPint);
