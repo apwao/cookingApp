@@ -47,3 +47,10 @@ return litres * 2.11338;
 let litres = prompt("Enter amount in litres:");
 let resultPint = litresToPint (litres);
 alert(resultPint);
+//Convert Pints to Litres
+let pintToLitre = function (pint) {
+return pint / 2.11338;
+}
+let pint = prompt("Enter amount in pints:");
+let resultLitre = pintToLitre (pint);
+alert(resultLitre);
