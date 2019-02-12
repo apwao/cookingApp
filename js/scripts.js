@@ -33,3 +33,10 @@ return ounce * 0.3125;
 let ounce = prompt("Enter amount in ounces:");
 let resultQuart = ounceToQuart (ounce);
 alert(resultQuart);
+//Convert Quarts to Ounces
+let quartToOunce = function (quart) {
+return quart / 0.3125;
+}
+let quart = prompt("Enter amount in quarts:");
+let resultOunce = quartToOunce (quart);
+alert(resultOunce);
